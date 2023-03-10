@@ -1,0 +1,8 @@
+// создаем ветку, пушим и дальше 'npm run deploy' и смотрим появилась ли новая ветка gh-pages этим же способом и реакт делаем )
+00. В https://photopea.ru/photoshop-online смотреть psd с Zeplin
+01. В figma смотрим шрифты и в fonts.google link их подключаем в index.html и если 1 шрифт то глобально в body {font-family: 'Poppins', sans-serif} в __global.scss
+02. В figma смотрим ширину container по навбару (1300px) и несем в __vars.scss $containerWidth: 1200; a padding (110px) умножаем на 2* и в $containerPadding: 40; пишем (220px)
+03. В figma смотрим colors и в __vars.scss
+04. В главном index.html подключаем @@include('./html/_header.html') а в style.scss @import './header';  дальше из _navbar.html в _header.html, _navbar.scss->_header.scss, navbar.js->main.js и function fixedNav удаляем если не нужно фиксировать меню при скролле
+05. добавляем logo в _header.html и названия меню. Прописываем paddingi в _header.scss .navbar и фон в background-color. Из фигмы скопировать атрибуты названия меню от f-s до color и вставить в &__item-link вместо color. В &__item отступы переписать. В _global.scss глобально прописать btn из фигмы. 
+06. Слайдер подключить библиотеку @import './libs/swiper'; в style.scss и @@include('./libs/swiper(lib).js') в scripts.js  Ненужное удалить если что в main.js (например, только arrows оставить) и в html который его скопировали (_news.html). И в swiper-slide _news.html делаем всю архитектуру. 
