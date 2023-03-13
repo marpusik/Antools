@@ -4,9 +4,9 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 $containerSidePadding + px;
-  @media (max-width: $breakpoint1450) {
-    max-width: 1200px;
-  }
+  //@media (max-width: $breakpoint1450) {
+  //  max-width: 1300px;
+  //}
   @media (max-width: $breakpoint992) {
     max-width: 970px;
   }
@@ -45,6 +45,8 @@ button.btn{
   color: rgba(255, 255, 255, 0.78);
   opacity: 0.78;
   background: none;
+  padding: 9px 35px;
+  border-radius: 8px;
 }
 // Animations
 // Fade
@@ -55,5 +57,9 @@ button.btn{
   100% {
     opacity: 1;
   }
+}
+.card{
+  width: 392px;
+  height: 294px;
 }
 

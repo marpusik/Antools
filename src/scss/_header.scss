@@ -1,5 +1,5 @@
 nav {
-  overflow: hidden;
+  //overflow: hidden;
 }
 .navbar {
   display: flex;
@@ -36,9 +36,6 @@ nav {
   display: none;
   cursor: pointer;
 }
-.header-top {
-  display: flex;
-}
 h1 {
   font-style: normal;
   font-weight: 500;
@@ -46,16 +43,6 @@ h1 {
   line-height: 140%;
   color: rgba(255, 255, 255, 0.9);
   margin-top: 20px;
-}
-h1 span {
-  color: $secondary;
-}
-.box p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-  color: rgba(255, 255, 255, 0.55);
 }
 .search {
   width: 497.66px;
@@ -75,12 +62,6 @@ input {
   line-height: 21px;
   color: rgba(255, 255, 255, 0.38);
   margin-right: 111px;
-}
-.box {
-  margin-top: 69px;
-  display: flex;
-  flex-direction: column;
-  max-width: 600px;
 }
 // Burger menu styles
 @media screen and (max-width: $burgerBreakpoint) {
@@ -169,9 +150,9 @@ input {
     color: white;
   }
 }
-.submenu__item {
-  list-style-type: none;
-}
+//.submenu__item {
+//  list-style-type: none;
+//}
 .menu {
   display: flex;
   list-style-type: none;
@@ -219,7 +200,7 @@ input {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: rgba(255, 255, 255, .78);
+    color: rgba(255, 255, 255, 0.38);
   }
 }
 

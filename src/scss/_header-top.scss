@@ -1,0 +1,30 @@
+.header-top {
+  display: flex;
+  //position: relative;
+}
+.top__img{
+  position: absolute;
+  right: 0px;
+  top: 132px;
+}
+.box p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.55);
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+h1 span {
+  color: $secondary;
+}
+.box {
+  margin-top: 69px;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+.box-wrap{
+  margin-top: 135px;
+}

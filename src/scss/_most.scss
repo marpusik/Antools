@@ -1,0 +1,94 @@
+.most {
+  margin-top: 200px;
+}
+h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+.tools {
+  margin-top: 25px;
+  margin-bottom: 90px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.55);
+}
+.most__wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.card__cover {
+  display: flex;
+}
+.cover img {
+  margin-right: 30px;
+}
+h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.78);
+}
+.cover__box span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(255, 165, 55, 0.55);
+}
+.card p {
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.55);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.card__box {
+  display: flex;
+  align-items: center;
+}
+.card {
+  padding: 33px;
+  position: relative;
+  overflow: hidden;
+}
+.like {
+  margin-left: 18px;
+  margin-right: 180px;
+}
+.card:hover {
+  transform: translateY(-15px);
+  background: rgba(40, 48, 54, 0.6);
+  border: 2px solid #242C32;
+  backdrop-filter: blur(25px);
+  border-radius: 15px;
+  animation: fade .5s linear;
+}
+.card:hover::before {
+  content: " ";
+  display: block;
+  width: 65px;
+  height: 65px;
+  background: rgba(255, 110, 48, 0.6);
+  filter: blur(50px);
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.like:hover{
+  fill: #FD3B41;
+}
+.card:hover .btn__text{
+  background: #FF6E30;
+}
