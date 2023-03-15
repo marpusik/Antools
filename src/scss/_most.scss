@@ -87,9 +87,19 @@ h3 {
   right: 0px;
   top: 0px;
 }
-.like:hover{
-  fill: #FD3B41;
+.card:hover .like {
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(1.5);
 }
-.card:hover .btn__text{
+.card:hover .btn__text {
+  background: #FF6E30;
+}
+.most .most__btn {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  margin: 100px auto 200px;
+  display: block;
+}
+.most__btn:hover{
   background: #FF6E30;
 }

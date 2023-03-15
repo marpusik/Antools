@@ -1,0 +1,34 @@
+.brand{
+  margin-bottom: 200px;
+}
+.brand__wrap {
+  max-width: 1224px;
+  height: 253px;
+  padding: 0 108px;
+  transform: translateY(-15px);
+  background: rgba(40, 48, 54, 0.6);
+  border: 2px solid #242C32;
+  backdrop-filter: blur(25px);
+  border-radius: 25px;
+  animation: fade .5s linear;
+  width: 100%;
+  text-align: center;
+}
+.brand__wrap::before {
+  content: " ";
+  display: block;
+  width: 65px;
+  height: 65px;
+  background: rgba(255, 110, 48, 0.6);
+  filter: blur(50px);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.brand__wrap h3{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.brand__wrap--img img:not(:last-child){
+  padding-right: 50px;
+}
