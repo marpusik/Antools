@@ -1,0 +1,35 @@
+.newcomer{
+  margin-bottom: 200px;
+}
+.newcomer__wrap{
+  display: flex;
+}
+.newcomer__wrap .most__wrap{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.newcomer__box button{
+  width: 198px;
+  height: 58px;
+}
+.newcomer__wrap .box{
+  max-width: 427px;
+  height: 300px;
+}
+.newcomer__wrap .card{
+  width: 288px;
+  height: 284px;
+}
+.newcomer__wrap .like{
+  margin-right: 49px;
+}
+.newcomer__wrap p{
+  font-size: 14px;
+}
+.newcomer__box{
+  margin: 0px 197px 0 0;
+}
+.newcomer__box p{
+  font-size: 16px;
+}

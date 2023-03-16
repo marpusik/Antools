@@ -32,3 +32,23 @@ function submenu() {
   })
 }
 submenu()
+
+const swiper = new Swiper('.swiper', {
+  slidesPerView: 1,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.next__btn',
+    prevEl: '.prev__btn',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 320px
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+  }
+});

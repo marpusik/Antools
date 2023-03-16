@@ -1,4 +1,41 @@
-// Footer
 footer {
-    display: block;
+  border: 0.5px solid rgba(255, 255, 255, 0.15);
+}
+footer .container {
+  display: flex;
+  margin-top: 70px;
+}
+.footer__antools {
+  width: 263px;
+}
+.footer__antools h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 25px;
+  margin-bottom: 21px;
+}
+.footer__antools p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.footer__contact{
+  width: 197px;
+}
+.footer__contact span{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.55);
+  padding-top: 10px;
+  display: block;
+}
+.footer__contact .span {
+  margin-top: 20px;
 }

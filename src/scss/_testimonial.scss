@@ -1,0 +1,65 @@
+.testimonial{
+  margin-bottom: 250px;
+}
+.swiper {
+  width: 849px;
+  height: 600px;
+}
+.swiper-slide {
+  position: relative;
+}
+.slide__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slide__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 0.015em;
+  color: rgba(255, 255, 255, 0.78);
+}
+.inner {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 110px;
+  left: 420px;
+}
+.swiper-arrows {
+  position: absolute;
+}
+.swiper__btn {
+  background: none;
+  position: absolute;
+}
+.prev__btn {
+  top: -330px;
+  left: 50px;
+}
+.next__btn {
+  top: -330px;
+  right: -1200px;
+  z-index: 2;
+}
+.swiper-pagination-bullet {
+  width: 44px !important;
+  height: 6px !important;
+  background: rgba(255, 255, 255, 0.55) !important;
+  border-radius: 4px !important;
+}
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: #FF6E30 !important;
+}
+.next__btn {
+  filter: grayscale(100%);
+}
+.swiper-button-disabled {
+  filter: invert(45%) sepia(60%) saturate(1335%) hue-rotate(341deg) brightness(108%) contrast(102%);
+}
+.swiper-pagination {
+  padding-top: 100px;
+}
