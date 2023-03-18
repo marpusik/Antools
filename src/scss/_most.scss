@@ -100,6 +100,55 @@ h3 {
   margin: 100px auto 200px;
   display: block;
 }
-.most__btn:hover{
+.most__btn:hover {
   background: #FF6E30;
 }
+@media (max-width: 1245px) {
+  .container {
+    padding: 0 10px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .tools {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .cover__box span {
+    font-size: 15px;
+  }
+  .card p {
+    font-size: 13px;
+  }
+  .like {
+    margin-right: 80px;
+  }
+  .card {
+    width: 300px;
+  }
+  .card:hover {
+    width: min-content;
+  }
+  .btn__text {
+    padding: 5px 25px;
+  }
+  .most {
+    margin-top: 130px;
+  }
+  .most .most__btn {
+    margin: 80px auto 130px;
+  }
+}
+@media (max-width: $breakpoint992) {
+  .most__wrap {
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-items: center;
+  }
+}
+@media (max-width: $breakpoint768) {
+
+}
+@media (max-width: $breakpoint480) {}

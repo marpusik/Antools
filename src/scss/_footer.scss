@@ -3,7 +3,9 @@ footer {
 }
 footer .container {
   display: flex;
+  justify-content: space-between;
   margin-top: 70px;
+  margin-bottom: 98px;
 }
 .footer__antools {
   width: 263px;
@@ -14,8 +16,8 @@ footer .container {
   font-size: 16px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.9);
-  margin-top: 25px;
-  margin-bottom: 21px;
+  padding-top: 25px;
+  padding-bottom: 21px;
 }
 .footer__antools p {
   font-style: normal;
@@ -37,5 +39,35 @@ footer .container {
   display: block;
 }
 .footer__contact .span {
-  margin-top: 20px;
+  padding-top: 20px;
+}
+.footer__categories{
+  width: 112px;
+}
+.footer__categories a{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.55);
+  padding-top: 10px;
+  display: block;
+}
+.footer__categories .a{
+  padding-top: 20px;
+}
+.footer__company{
+  width: 173px;
+}
+.footer__company a{
+  display: block;
+  padding-top: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.footer__company .a{
+  padding-top: 20px;
 }
