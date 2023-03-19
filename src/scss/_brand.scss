@@ -1,4 +1,4 @@
-.brand{
+.brand {
   margin-bottom: 200px;
 }
 .brand__wrap {
@@ -25,10 +25,23 @@
   left: 0px;
   top: 0px;
 }
-.brand__wrap h3{
+.brand__wrap h3 {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.brand__wrap--img img:not(:last-child){
+.brand__wrap--img img:not(:last-child) {
   padding-right: 50px;
+}
+@media (max-width: $breakpoint992) {
+  .brand__wrap--img img:first-child {
+    padding-left: 50px;
+  }
+  .brand__wrap {
+    padding: 0 20px;
+  }
+}
+@media (max-width: $breakpoint768) {
+  .brand__wrap--img img {
+    padding: 0 !important;
+  }
 }
